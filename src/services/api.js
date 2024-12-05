@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 //const API_URL = 'http://localhost:3000';
-const API_URL = 'https:focusbackend-hul4.onrender.com';
+const API_URL = 'https://focusbackend-hul4.onrender.com';
 
 export const getUsers = ()  => axios.get(`${API_URL}/users`);
 export const getUserById = (id) => axios.get(`${API_URL}/users/${id}`);
